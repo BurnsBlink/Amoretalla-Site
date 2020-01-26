@@ -8,16 +8,16 @@ $primary-red: #BE1E2D;
 }
 
 .app-footer {
-  border-top: 2px solid $primary-red;
-  position: fixed;
-  padding: 1rem;
-  left: 0;
+  border-top: 0.125rem solid $primary-red;
   bottom: 0;
+  display: block;
   height: 7rem;
-  width: 100%;
+  left: 0;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
 }
 
 .app-title {
