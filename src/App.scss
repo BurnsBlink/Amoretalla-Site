@@ -1,11 +1,37 @@
-.App {
-  text-align: center;
-}
+$black: #000000;
+$footer-black: #151515;
+$primary-red: #BE1E2D;
 
 * {
+  background: $black;
   font-family: 'Montserrat', sans-serif;
 }
 
+.app-footer {
+  border-top: 0.125rem solid $primary-red;
+  bottom: 0;
+  display: block;
+  height: 7rem;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+}
+
 .app-title {
-  font-size: 1.75rem;
+  color: white;
+  font-size: 7rem;
+  margin-top: 3.125rem;
+}
+
+.app-subtitle {
+  color: white;
+  font-size: 2rem;
+  margin-top: .5rem;
+}
+
+.social-links {
+  margin: 0rem 2.8125rem;
 }
